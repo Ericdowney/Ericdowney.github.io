@@ -16,23 +16,22 @@ export default class PublishedApp extends Component {
                         imgAlt: 'temp',
                         primaryBody: 'This simple, easy-to-use interface calculates your BMR. What is BMR? That’s simple, your basal metabolic rate is an estimation of how many calories your body would burn while at rest for a full day.',
                         secondaryBody: 'In this app, we guide you through entering your height, weight, age, and gender to provide you with your BMR. In the last step of this calculator, you can see how different activity levels and your BMR affect the amount of calories you should consume. To make these calculations, we use the standard Harris Benedict Equation.'
-                    },
+                    }
+                    ,
                     {
-                        id: 2, headingColor: 'orange', subHeading: 'Lorem',
+                        id: 2, headingColor: 'orange', subHeading: 'Phobias: A list of all fears',
                         imgRef: imageFearApp,
                         iOSIcon: true,
                         imgAlt: 'temp',
-                        primaryBody: 'This simple, easy-to-use interface calculates your BMR. What is BMR? That’s simple, your basal metabolic rate is an estimation of how many calories your body would burn while at rest for a full day.',
-                        secondaryBody: 'In this app, we guide you through entering your height, weight, age, and gender to provide you with your BMR. In the last step of this calculator, you can see how different activity levels and your BMR affect the amount of calories you should consume. To make these calculations, we use the standard Harris Benedict Equation.'
+                        primaryBody: 'Coming soon to an app store near you!'
                     },
                     {
-                        id: 3, headingColor: 'orange', subHeading: 'Ipsum',
+                        id: 3, headingColor: 'orange', subHeading: 'Swatches',
                         imgRef: imageColorPalette,
                         iOSIcon: true,
                         imgAlt: 'temp',
-                        primaryBody: 'This simple, easy-to-use interface calculates your BMR. What is BMR? That’s simple, your basal metabolic rate is an estimation of how many calories your body would burn while at rest for a full day.',
-                        secondaryBody: 'In this app, we guide you through entering your height, weight, age, and gender to provide you with your BMR. In the last step of this calculator, you can see how different activity levels and your BMR affect the amount of calories you should consume. To make these calculations, we use the standard Harris Benedict Equation.'
-                    }
+                        primaryBody: 'Coming soon to an app store near you!'
+                     }
                     ]} />
             </div>
         );
