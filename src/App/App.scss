@@ -1,0 +1,56 @@
+@import './General/Grid.scss';
+@import './General/Variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Source+Sans+Pro:300, 700');
+
+body {
+    background-color: $color-off-white;
+    color: $color-dark-gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: $color-dark-gray;
+
+    &.primary { 
+        color: $color-blue;
+        text-transform: uppercase;
+    }
+    &.secondary { 
+        color: $color-orange;
+        text-transform: uppercase;
+    }
+    &.tertiary { 
+        color: $color-medium-gray;
+        text-transform: uppercase;
+    }
+}
+
+.body {
+    padding-bottom: $footer-height;
+}
+
+.App {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 100%;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .App {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+@media (min-width: 768px) {
+    .App {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
