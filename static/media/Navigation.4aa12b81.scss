@@ -1,0 +1,13 @@
+img {
+    &.buttonImage {
+        width: 1.5em;
+        height: 1.5em;
+        margin: .83em;
+        object-fit: contain;   
+    }
+}
+@media (min-width: 768px) {
+    a:hover, a:focus {
+        cursor: pointer;
+    }
+}
